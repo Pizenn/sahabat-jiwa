@@ -50,7 +50,7 @@ export function ChatbotInterface() {
 try {
       // VITE_API_URL akan kita atur di Railway
         const apiUrl = import.meta.env.VITE_API_URL;
-        const response = await fetch(`https://thoric-exoterically-brittaney.ngrok-free.dev/chat`, { 
+        const response = await fetch(`http://10.108.23.51:3001/chat`, { 
 // ...
         method: "POST",
         headers: {
