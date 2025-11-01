@@ -1,0 +1,16 @@
+# Abaikan file environment di backend
+/backend/.env
+
+# Abaikan node_modules di kedua folder
+/frontend/node_modules/
+/backend/node_modules/
+
+# Abaikan folder build frontend
+/frontend/dist/
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
+
+# File log
+*.log
